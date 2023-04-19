@@ -2,17 +2,23 @@
 
 # I. Introduction
 
+Neural networks and deep learning are more popular than ever, but are mostly being used with images, audio, video, or natural language.
+A lot of datasets come as tabular data.
 Our goal is to explore when deep learning is a better choice than more standard, tree-based, machine learning models. 
-To do this we will use several large tabular datasets, including the dataset used in the Deep Learning book, "Blue Book for Bulldozers", a dataset used to see who survived the Titanic.
+To do this we will use several large tabular datasets, including the dataset used in the "Deep Learning for Coders..." book [Blue Book for Bulldozers](https://www.kaggle.com/competitions/bluebook-for-bulldozers/data), a dataset used to see who survived the [Titanic](https://www.kaggle.com/competitions/titanic/overview), a dataset to [Predict Student Performance from Game Play](https://www.kaggle.com/competitions/predict-student-performance-from-game-play), dataset4, dataset 5, ... 
 To evaluate what is best we will take into consideration the predictive performance, training time, inference time and requirements, explainability for each of the datasets.
 
 # II. Background
 
-Tabular data is data that comes in the form of a table, like a .csv file. The rows represent an observation, and colums represent the features, or the attributes of the observation. We want to predict one feature, the dependent variable, based on the data of the other features, the independent variables,
+Tabular data is data that comes in the form of a table, like a .csv file. The rows represent an observation, and colums represent the features, or the attributes of the observation. We want to predict one feature, the dependent variable, based on the data of the other features, the independent variables.
 
-Tabular data is one of the most common types of data that we see in many real-world applications. It is also usualy easy to understand the data, you can use statistical and mathematical opperations, and there are good practices in place to explore and get the most knowledge out of the data.
+Tabular data is one of the most common types of data that we see in many real-world applications. It is also usualy easy to understand the data, you can use statistical and mathematical opperations, and there are good practices in place to explore and get a lot of knowledge out of the data.
 
-If we were to go a non deep learning route, one would use decision trees, like random forest and gradient boosting. And probably an ensamble of theese.
+According to "Deep Learning for Coders..." the vast majority of datasets can be modeled with:
+* Decision tree ensambles, for structured data
+* Deep learning, for unstructered data
+
+If we were to go a non deep learning route, one would use decision trees or random forests.
 
 Overview of deep learning methods for tabular data via embeddings
 
