@@ -3,7 +3,7 @@
 # I. Introduction
 
 Our goal is to explore when deep learning is a better choice than more standard, tree-based, machine learning models. 
-To do this we will use several large tabular datasets, including Titanic, ...
+To do this we will use several large tabular datasets, including the dataset used in the Deep Learning book, "Blue Book for Bulldozers", a dataset used to see who survived the Titanic.
 To evaluate what is best we will take into consideration the predictive performance, training time, inference time and requirements, explainability for each of the datasets.
 
 # II. Background
@@ -36,10 +36,10 @@ Description of the evaluation metrics used (predictive performance, training tim
 
 Presentation of the results for each model, including the evaluation metrics used
 
-## Titanic Result
+## Blue Book for Bulldozers
 Comparison of the performance of the different models
 
-## ... Result
+## Titanic Result
 Comparison of the performance of the different models
 
 # VI. Discussion
