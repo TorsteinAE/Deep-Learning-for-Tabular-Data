@@ -12,7 +12,7 @@ To evaluate what is best we will take into consideration the predictive performa
 
 Tabular data is data that comes in the form of a table, like a .csv file. The rows represent an observation, and colums represent the features, or the attributes of the observation. We want to predict one feature, the dependent variable, based on the data of the other features, the independent variables.
 
-Tabular data is one of the most common types of data that we see in many real-world applications. It is also usualy easy to understand the data, you can use statistical and mathematical opperations, and there are good practices in place to explore and get a lot of knowledge out of the data.
+Tabular data is one of the most common types of data that we see in many real-world applications. It is also usualy easy to understand the data, you can use statistical and mathematical opperations, and there are good practices in place to explore and get a lot of knowledge out of the data. Some considerations one have to consider when handling tabular data is how to handle missing values, ordinal columns, dates and other categorical variables.
 
 According to "Deep Learning for Coders..." the vast majority of datasets can be modeled with:
 * Decision tree ensambles, for structured data
@@ -28,7 +28,19 @@ Description of the datasets used in the experiments
 
 Titanic inneholder informasjon om passasjerene, inkludert om de overlevde eller ikke
 
+Bulldozer
+
+Students
+
 Explanation of the data cleaning and preprocessing steps taken
+
+Missing values
+
+Ordinal Columns
+
+Dates
+
+Categorical
 
 # IV. Experimental Design
 
