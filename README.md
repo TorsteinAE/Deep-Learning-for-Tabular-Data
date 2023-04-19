@@ -61,3 +61,5 @@ Recommendations for future research in this area
 
 # VIII. References
 
+Howard, J. and Gugger, S. (2021) Deep learning for coders with FASTAI and pytorch: AI applications without a Phd.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sebastopol, CA: O'Reilly Media, Inc. 
