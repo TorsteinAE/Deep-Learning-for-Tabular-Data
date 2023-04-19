@@ -42,7 +42,7 @@ Dates
 
 Categorical
 
-Normalize between -1,1 or 0,1
+Normalize inputs to be between (-1,1) or (0,1)
 
 # IV. Experimental Design
 
