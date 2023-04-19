@@ -42,6 +42,8 @@ Dates
 
 Categorical
 
+Normalize between -1,1 or 0,1
+
 # IV. Experimental Design
 
 Overview of the models used (tree-based models and neural network-based models with embeddings) In addition, one can consider including other libraries for tree-based models LightGBM and XGBoost.
