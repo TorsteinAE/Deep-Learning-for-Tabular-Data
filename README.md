@@ -4,15 +4,17 @@
 
 Neural networks and deep learning are more popular than ever, but are mostly being used with images, audio, video, or natural language.
 A lot of datasets come as tabular data.
+
 Our goal is to explore when deep learning is a better choice than more standard, tree-based, machine learning models. 
 To do this we will use several large tabular datasets, including the dataset used in the "Deep Learning for Coders..." book [Blue Book for Bulldozers](https://www.kaggle.com/competitions/bluebook-for-bulldozers/data), a dataset used to see who survived the [Titanic](https://www.kaggle.com/competitions/titanic/overview), a dataset to [Predict Student Performance from Game Play](https://www.kaggle.com/competitions/predict-student-performance-from-game-play), dataset4, dataset 5, ... 
+
 To evaluate what is best we will take into consideration the predictive performance, training time, inference time and requirements, explainability for each of the datasets.
 
 # II. Background
 
 Tabular data is data that comes in the form of a table, like a .csv file. The rows represent an observation, and colums represent the features, or the attributes of the observation. We want to predict one feature, the dependent variable, based on the data of the other features, the independent variables.
 
-Tabular data is one of the most common types of data that we see in many real-world applications. It is also usualy easy to understand the data, you can use statistical and mathematical opperations, and there are good practices in place to explore and get a lot of knowledge out of the data. Some considerations one have to consider when handling tabular data is how to handle missing values, ordinal columns, dates and other categorical variables.
+Tabular data is one of the most common types of data that we see in many real-world applications. It is also usualy easy to understand the data, you can use statistical and mathematical opperations, and there are good practices in place to explore and get a lot of knowledge out of the data. Some things one has to consider when handling tabular data is how to handle missing values, ordinal columns, dates and other categorical variables.
 
 According to "Deep Learning for Coders..." the vast majority of datasets can be modeled with:
 * Decision tree ensambles, for structured data
@@ -51,7 +53,13 @@ Overview of the models used (tree-based models and neural network-based models w
 
 Explanation of the hyperparameters and training techniques used for each model
 
-Deep learning neural network model design, layers
+## Random Forest
+
+## Deep Learning
+
+Deep learning neural network model design, layers, 
+
+## Evaluation
 
 Description of the evaluation metrics used (predictive performance, training time, inference time, explainability)
 
@@ -59,19 +67,19 @@ Description of the evaluation metrics used (predictive performance, training tim
 
 Presentation of the results for each model, including the evaluation metrics used
 
-## Blue Book for Bulldozers
+## Titanic Result
 Comparison of the performance of the different models
 
-## Titanic Result
+## Blue Book for Bulldozers
 Comparison of the performance of the different models
 
 # VI. Discussion
 
-Interpretation of the results
+Interpretation and discussion of the results
 
-Ser etter en spesiell relevant karakterestikk i datasetene. 
+Comment what characteristics that may be better for tabular data, what is not, 
 
-Explanation of when deep learning models are more suited than tree-based models for tabular data
+what type of architecture and hyperparamaters are best performing
 
 Discussion of the limitations and challenges of using deep learning models for tabular data
 
@@ -79,7 +87,13 @@ Discussion of the limitations and challenges of using deep learning models for t
 
 Summary of the key findings of the project
 
-Tabular data come in many forms. 
+Tabular data come in many forms.
+
+How can we create a deep learning neural network and architecture best suited for the tabular dataset
+
+What kind of preproccessing is crutial in deep learning for tabular data
+
+Conclusion of when deep learning models are more suited than tree-based models for tabular data
 
 Recommendations for future research in this area
 
