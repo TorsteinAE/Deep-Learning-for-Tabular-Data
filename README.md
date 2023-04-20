@@ -24,31 +24,34 @@ Overview of deep learning methods for tabular data via embeddings
 
 # III. Data Collection and Preparation
 
-Description of the datasets used in the experiments
+For our experiments, we will be using several large tabular datasets:
 
-Titanic inneholder informasjon om passasjerene, inkludert om de overlevde eller ikke
+## Titanic dataset:
+This dataset contains information about the passengers on the Titanic, including whether they survived or not.
 
-Bulldozer
+## Blue Book for Bulldozers dataset:
+This dataset contains information about the sale of used bulldozers, including their characteristics and sale prices.
 
-Students
+## Student Performance dataset:
+This dataset includes details about student performance and the grades that correspond to it.
 
-Explanation of the data cleaning and preprocessing steps taken
+## Cleaning and Preparation
+We need to carry out some data cleaning and preparation procedures before we can use these datasets for modeling. Some typical actions we might use are:
+* Handling missing values: To fill in the dataset's missing values, we may utilize methods like imputation.
+* Managing ordinal columns: Ordinal columns are those whose values are ranked or have an order, such as "low," "medium," or "high." We might utilize methods like ordinal encoding or turn these columns into numerical values.
+* Handling dates: We may extract useful features from dates such as year, month, and day, or convert them to a numerical representation such as the number of days since a certain date.
+* Handling categorical variables: Categorical variables are variables with a limited number of possible values (e.g. "red", "green", "blue"). We may use techniques such as one-hot encoding or embedding to represent these variables numerically.
+* Normalizing inputs: We may normalize the numerical input features to have a certain range, such as between (-1,1) or (0,1), to help with training and avoid numerical issues.
 
-Missing values
-
-Ordinal Columns
-
-Dates
-
-Categorical
-
-Normalize inputs to be between (-1,1) or (0,1)
+After these steps, we can use the cleaned and preprocessed data to train and evaluate our machine learning models, including deep learning models.
 
 # IV. Experimental Design
 
 Overview of the models used (tree-based models and neural network-based models with embeddings) In addition, one can consider including other libraries for tree-based models LightGBM and XGBoost.
 
 Explanation of the hyperparameters and training techniques used for each model
+
+Deep learning neural network model design, layers
 
 Description of the evaluation metrics used (predictive performance, training time, inference time, explainability)
 
@@ -75,7 +78,8 @@ Discussion of the limitations and challenges of using deep learning models for t
 # VII. Conclusion
 
 Summary of the key findings of the project
-We found that when a tabular dataset is ... it is better to use deep learning
+
+Tabular data come in many forms. 
 
 Recommendations for future research in this area
 
