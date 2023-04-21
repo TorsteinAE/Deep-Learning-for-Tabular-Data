@@ -30,7 +30,7 @@ According to "Deep Learning for Coders..." the vast majority of datasets can be 
 * Decision tree ensambles, for structured data
 * Deep learning, for unstructered data
 
-If we were to go a non deep learning route, one would use decision trees or random forests.
+It also recomends starting with endambles of decision trees, but says that when the dataset has some important high-cardinality categorical variables, or there are columns that would be best understood with neural networks, to also try deep learning.
 
 Overview of deep learning methods for tabular data via embeddings
 
