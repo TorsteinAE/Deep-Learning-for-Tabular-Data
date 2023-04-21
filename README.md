@@ -111,3 +111,6 @@ Recommendations for future research in this area
 
 Howard, J. and Gugger, S. (2021) Deep learning for coders with FASTAI and pytorch: AI applications without a Phd.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sebastopol, CA: O'Reilly Media, Inc. 
+
+Géron, A. (2021) Hands-on machine learning with scikit-learn and tensorflow: Concepts, tools, and techniques to build Intelligent Systems.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Beijing: O'Reilly. 
