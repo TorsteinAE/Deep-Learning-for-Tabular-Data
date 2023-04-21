@@ -6,7 +6,17 @@ Neural networks and deep learning are more popular than ever, but are mostly bei
 A lot of datasets come as tabular data.
 
 Our goal is to explore when deep learning is a better choice than more standard, tree-based, machine learning models. 
-To do this we will use several large tabular datasets, including the dataset used in the "Deep Learning for Coders..." book [Blue Book for Bulldozers](https://www.kaggle.com/competitions/bluebook-for-bulldozers/data), a dataset used to see who survived the [Titanic](https://www.kaggle.com/competitions/titanic/overview), a dataset to [Predict Student Performance from Game Play](https://www.kaggle.com/competitions/predict-student-performance-from-game-play), dataset4, dataset 5, ... 
+To do this we will use several large tabular datasets, including the dataset used in the "Deep Learning for Coders..." book [Blue Book for Bulldozers](https://www.kaggle.com/competitions/bluebook-for-bulldozers/data), a dataset used to see who survived the [Titanic](https://www.kaggle.com/competitions/titanic/overview), a dataset to [Predict Student Performance from Game Play](https://www.kaggle.com/competitions/predict-student-performance-from-game-play).
+
+We will use the Machine Learning Project Checklist from the Hands-On ML book:
+1. Frame the problem and look at the big picture
+2. Get the data
+3. Explore the data
+4. Prepare the data
+5. Explore models
+6. Fine tune models
+7. Present solution
+8. Launch
 
 To evaluate what is best we will take into consideration the predictive performance, training time, inference time and requirements, explainability for each of the datasets.
 
