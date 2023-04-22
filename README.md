@@ -38,13 +38,15 @@ Overview of deep learning methods for tabular data via embeddings
 
 For our experiments, we will be using several large tabular datasets:
 
-## Titanic dataset:
+## Titanic:
 This dataset contains information about the passengers on the Titanic, including whether they survived or not.
+We want to create a model that predicts if a passenger survived or not, based on info like their name, age, sex...
 
-## Blue Book for Bulldozers dataset:
+## Blue Book for Bulldozers:
 This dataset contains information about the sale of used bulldozers, including their characteristics and sale prices.
+We want to create a model that predicts the sales prize of bulldozers based on info like the sales date, the machineId...
 
-## Student Performance dataset:
+## Student Performance:
 This dataset includes details about student performance and the grades that correspond to it.
 
 ## Cleaning and Preparation
