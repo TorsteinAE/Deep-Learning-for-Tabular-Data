@@ -32,7 +32,8 @@ According to "Deep Learning for Coders..." the vast majority of datasets can be 
 
 It also recomends starting with endambles of decision trees, but says that when the dataset has some important high-cardinality categorical variables, or there are columns that would be best understood with neural networks, to also try deep learning.
 
-Overview of deep learning methods for tabular data via embeddings
+Deep learning methods for tabular data via embeddings involve representing categorical variables as continuous vectors, or embeddings, which are then used as inputs to neural networks.
+This approach has been shown to improve the performance of neural networks on tabular data.
 
 # III. Data Collection and Preparation
 
@@ -60,25 +61,39 @@ After these steps, we can use the cleaned and preprocessed data to train and eva
 
 # IV. Experimental Design
 
-Overview of the models used (tree-based models and neural network-based models with embeddings) In addition, one can consider including other libraries for tree-based models LightGBM and XGBoost.
+We will use several different ML models for our testing
 
 ## Decision Tree
+
+A decision tree is a type of supervised machine learning algorithm used for classification and regression analysis.
+It is a tree-like model where each internal node represents a test on an attribute or feature, each branch represents the outcome of the test, and each leaf node represents a class label or a numerical value.
 
 Explanation of the hyperparameters and training techniques used
 
 ## Random Forest
 
+Random forest is a type of ensemble learning method that combines multiple decision trees to create a more accurate and stable model.
+In a random forest, multiple decision trees are trained on different subsets of the training data and using different subsets of features.
+The subsets of data and features are chosen randomly, which helps to reduce the correlation between the trees and prevent overfitting.
+
 Explanation of the hyperparameters and training techniques used
 
 ## Deep Learning
 
-We will be using fast.ai tabular library to create a neural network for out datasets
+The building blocks of deep learning models are artificial neural networks, which are inspired by the structure and function of the human brain.
+Neural networks consist of layers of interconnected nodes (also called neurons), where each node applies a nonlinear function to its inputs and produces an output that is passed on to the next layer.
+
+We will be using fast.ai tabular library to create a neural network for out datasets.
 
 Explanation of the hyperparameters and training techniques used
 
 ## Evaluation
 
-Description of the evaluation metrics used (predictive performance, training time, inference time, explainability)
+Evaluation metrics used in machine learning models typically include predictive performance, training time, inference time, and explainability: 
+* Predictive performance is the most commonly used metric and refers to how well the model performs on the task it was designed for
+* Training time measures how long it takes to train the model 
+* Inference time measures how long it takes to make predictions once the model is trained
+* Explainability refers to the degree to which the model can provide insight into its decision-making process
 
 # V. Results
 
