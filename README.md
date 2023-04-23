@@ -8,7 +8,7 @@ A lot of datasets come as tabular data.
 Our goal is to explore when deep learning is a better choice than more standard, tree-based, machine learning models. 
 To do this we will use several large tabular datasets, including the dataset used in the "Deep Learning for Coders..." book [Blue Book for Bulldozers](https://www.kaggle.com/competitions/bluebook-for-bulldozers/data), a dataset used to see who survived the [Titanic](https://www.kaggle.com/competitions/titanic/overview), a dataset to [Predict Student Performance from Game Play](https://www.kaggle.com/competitions/predict-student-performance-from-game-play).
 
-We will use the Machine Learning Project Checklist from the Hands-On ML book:
+We will use the Machine Learning Project Checklist from the "Hands-On ML..." book:
 1. Frame the problem and look at the big picture
 2. Get the data
 3. Explore the data
@@ -39,15 +39,14 @@ Overview of deep learning methods for tabular data via embeddings
 For our experiments, we will be using several large tabular datasets:
 
 ## Titanic:
+
 This dataset contains information about the passengers on the Titanic, including whether they survived or not.
 We want to create a model that predicts if a passenger survived or not, based on info like their name, age, sex...
 
 ## Blue Book for Bulldozers:
+
 This dataset contains information about the sale of used bulldozers, including their characteristics and sale prices.
 We want to create a model that predicts the sales prize of bulldozers based on info like the sales date, the machineId...
-
-## Student Performance:
-This dataset includes details about student performance and the grades that correspond to it.
 
 ## Cleaning and Preparation
 We need to carry out some data cleaning and preparation procedures before we can use these datasets for modeling. Some typical actions we might use are:
@@ -63,13 +62,19 @@ After these steps, we can use the cleaned and preprocessed data to train and eva
 
 Overview of the models used (tree-based models and neural network-based models with embeddings) In addition, one can consider including other libraries for tree-based models LightGBM and XGBoost.
 
-Explanation of the hyperparameters and training techniques used for each model
+## Decision Tree
+
+Explanation of the hyperparameters and training techniques used
 
 ## Random Forest
 
+Explanation of the hyperparameters and training techniques used
+
 ## Deep Learning
 
-Deep learning neural network model design, layers, 
+We will be using fast.ai tabular library to create a neural network for out datasets
+
+Explanation of the hyperparameters and training techniques used
 
 ## Evaluation
 
