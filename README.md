@@ -5,8 +5,8 @@
 Neural networks and deep learning are more popular than ever, but are mostly being used with images, audio, video, or natural language.
 A lot of datasets come as tabular data.
 
-Our goal is to explore when deep learning is a better choice than more standard, tree-based, machine learning models. 
-To do this we will use several large tabular datasets, including the dataset used in the "Deep Learning for Coders..." book [Blue Book for Bulldozers](https://www.kaggle.com/competitions/bluebook-for-bulldozers/data), a dataset used to see who survived the [Titanic](https://www.kaggle.com/competitions/titanic/overview), a dataset to [Predict Student Performance from Game Play](https://www.kaggle.com/competitions/predict-student-performance-from-game-play).
+Our goal is to explore when deep learning is a better choice for tabular data than the more standard, tree-based, machine learning models. 
+To do this we will use several large tabular datasets, including the dataset [Blue Book for Bulldozers](https://www.kaggle.com/competitions/bluebook-for-bulldozers/data), a dataset used to see who survived the [Titanic](https://www.kaggle.com/competitions/titanic/overview).
 
 We will use the Machine Learning Project Checklist from the "Hands-On ML..." book:
 1. Frame the problem and look at the big picture
@@ -30,7 +30,7 @@ According to "Deep Learning for Coders..." the vast majority of datasets can be 
 * Decision tree ensambles, for structured data
 * Deep learning, for unstructered data
 
-It also recomends starting with endambles of decision trees, but says that when the dataset has some important high-cardinality categorical variables, or there are columns that would be best understood with neural networks, to also try deep learning.
+It also recomends starting with ensambles of decision trees, but says that when the dataset has some important high-cardinality categorical variables, or there are columns that would be best understood with neural networks, to also try deep learning.
 
 Deep learning methods for tabular data via embeddings involve representing categorical variables as continuous vectors, or embeddings, which are then used as inputs to neural networks.
 This approach has been shown to improve the performance of neural networks on tabular data.
