@@ -97,37 +97,26 @@ Evaluation metrics used in machine learning models typically include predictive 
 
 # V. Results
 
-Presentation of the results for each model, including the evaluation metrics used
-
 ## Titanic Result
-Comparison of the performance of the different models
+
+We got about the same result from the deep learning solution compared to the more standard deep learning models.
 
 ## Blue Book for Bulldozers
-Comparison of the performance of the different models
+
+Again we got about the same result for both approaches.
 
 # VI. Discussion
 
-Interpretation and discussion of the results
-
-Comment what characteristics that may be better for tabular data, what is not, 
-
-what type of architecture and hyperparamaters are best performing
-
-Discussion of the limitations and challenges of using deep learning models for tabular data
+We got about the same result on model accuracy for both deep learning and tree-based ml models.
+Generaly, training time of a neural network will take longer than creating a descision tree, so we will give an edge for the more standard ML models.
+Explainability is also better for descision trees, theese are easy to understand, and random forest gives great insight to what variables are most important.
+Deep learning also requires more preprocessing of the data.
 
 # VII. Conclusion
 
-Summary of the key findings of the project
-
-Tabular data come in many forms.
-
-How can we create a deep learning neural network and architecture best suited for the tabular dataset
-
-What kind of preproccessing is crutial in deep learning for tabular data
-
-Conclusion of when deep learning models are more suited than tree-based models for tabular data
-
-Recommendations for future research in this area
+In conclusion, tabular data come in many forms, and there are no good reasons to not start with a more standard ML model, like random forest.
+Here you can train a model fast, and draw great insight from the data at the same time.
+This would be usefull for creating a neural network later, and an easy to make random forest model is a great starting point if you want to check if a deep learning model is worth concidering.
 
 # VIII. References
 
